@@ -1,0 +1,11 @@
+{
+  "name": "owfs-browser",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "1.9.1",
+    "flight": "~1.0.7",
+    "requirejs": "~2.1.5",
+    "d3": "~3.1.5",
+    "underscore-amd": "~1.4.4"
+  }
+}

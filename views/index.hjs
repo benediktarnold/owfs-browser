@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ path }}</h1>
+    <ul>
+    {{#directories}} 
+    	<li><a href="/owfs{{.}}">{{.}}</a></li>
+    {{/directories}}
+	</ul>
+  <div id="value">
+      Current Value: <span data-owfs-path="{{path}}">{{value}}</span>
+      <input type="checkbox"/>
+  </div>
+  </body>
+  <script data-main="/javascripts/main" src='/javascripts/vendor/requirejs/require.js'></script>
+</html>

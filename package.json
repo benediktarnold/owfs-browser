@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "express": "3.1.1",
+    "hjs": "*",
+    "less-middleware": "*",
+    "owfs": "0.0.4",
+    "underscore.string": "~2.3.1"
+  }
+}
